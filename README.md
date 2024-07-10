@@ -45,6 +45,7 @@ Install dependencies
 Set Up Config File as .env and in that
 ```bash
 SECRET_KEY=your_secret_key
+DB_PASSWORD=thsi should be your actual docker password not the one you gave in terminal
 ```
 To generate sectret key bash on terminal and paste it in place of your_secret_key or if that not works directly paste it in place of settings.py
 ```bash
